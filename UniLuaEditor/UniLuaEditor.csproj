@@ -5,6 +5,17 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Lua.xshd" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Lua.xshd" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AvalonEdit" Version="6.3.0.90" />
     <PackageReference Include="Prism.Unity" Version="8.1.97" />
+    <PackageReference Include="Prism.Wpf" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Assets\UniLua\UniLuaX.csproj" />
   </ItemGroup>
 </Project>

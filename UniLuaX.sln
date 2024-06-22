@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniLuaX", "Assets\UniLua\UniLuaX.csproj", "{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniLuaEditor", "UniLuaEditor\UniLuaEditor.csproj", "{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniLuaEditor", "UniLuaEditor\UniLuaEditor.csproj", "{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "luaEdiy", "luaEdiy\luaEdiy.csproj", "{C67842DD-36E8-4FE9-BDA2-C50253CB3CD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C67842DD-36E8-4FE9-BDA2-C50253CB3CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67842DD-36E8-4FE9-BDA2-C50253CB3CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67842DD-36E8-4FE9-BDA2-C50253CB3CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67842DD-36E8-4FE9-BDA2-C50253CB3CD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

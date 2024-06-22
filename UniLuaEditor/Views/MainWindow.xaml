@@ -1,10 +1,44 @@
 ﻿<Window x:Class="UniLuaEditor.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Views="clr-namespace:UniLuaEditor.Views"
         xmlns:prism="http://prismlibrary.com/"
         prism:ViewModelLocator.AutoWireViewModel="True"
-        Title="{Binding Title}" Height="350" Width="525" >
+        Title="{Binding Title}" Height="350" Width="525" 
+         Loaded="Window_Loaded">
     <Grid>
-        <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="100*" />
+            <RowDefinition Height="Auto" />
+
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0" Background="{x:Null}" Grid.ColumnSpan="2" >
+            <MenuItem Header="File"    >
+                <MenuItem Header="New" Command="{Binding NewFileCommand}"  />
+                <MenuItem Header="Open" Command="{Binding OpenFileCommand}"  />
+                <MenuItem Header="Save" Command="{Binding SaveFileCommand}"  />
+
+                <!--<MenuItem Header="Close" Command=""  />-->
+                <Separator />
+                <MenuItem Header="Exit " Command=""  />
+            </MenuItem>
+            <!--<MenuItem Header="Edit" Command="" >
+                <MenuItem Header="拷贝" Command=""/>
+                <MenuItem Header="拷贝" Command=""/>
+                <MenuItem Header="拷贝" Command=""/>
+            </MenuItem>-->
+            <MenuItem Header="运行"   >
+                <MenuItem Header="Start" Command="{Binding StartCommand}"/>
+                <MenuItem Header="Pause" Command=""/>
+                <MenuItem Header="Stop" Command=""/>
+            </MenuItem>
+        </Menu>
+        <!--<ContentControl Grid.Row="1" prism:RegionManager.RegionName="ContentRegion" />-->
+        <Views:CodeTextEditor x:Name="LuaEditor" Grid.Row="1" SyntaxHighlighting="Lua.xshd"  Margin="2"  Document="{Binding LuaCode}"  />
+        <StatusBar  Grid.Row="2" Background="#FFE7FFE2" Grid.ColumnSpan="2" >
+            <Label Content="Line: "/>
+        </StatusBar>
     </Grid>
 </Window>
