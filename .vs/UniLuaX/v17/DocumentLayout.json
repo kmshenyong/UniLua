@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "H:\\project2\\UniLua\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|h:\\project2\\unilua\\uniluaeditor\\uniluaeditor.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|solutionrelative:uniluaeditor\\uniluaeditor.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|h:\\project2\\unilua\\assets\\unilua\\luaauxlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|solutionrelative:assets\\unilua\\luaauxlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,16 +23,16 @@
       "RelativeMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|solutionrelative:assets\\unilua\\vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|UniLuaX.csproj|h:\\project2\\unilua\\assets\\unilua\\luafile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|UniLuaX.csproj|solutionrelative:assets\\unilua\\luafile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|h:\\project2\\unilua\\assets\\unilua\\uldebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|solutionrelative:assets\\unilua\\uldebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|UniLuaX.csproj|h:\\project2\\unilua\\assets\\unilua\\uldebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|UniLuaX.csproj|solutionrelative:assets\\unilua\\uldebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|h:\\project2\\unilua\\assets\\unilua\\luapkglib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|solutionrelative:assets\\unilua\\luapkglib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|UniLuaX.csproj|h:\\project2\\unilua\\assets\\unilua\\luapkglib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|UniLuaX.csproj|solutionrelative:assets\\unilua\\luapkglib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|h:\\project2\\unilua\\assets\\unilua\\luafile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|solutionrelative:assets\\unilua\\luafile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,20 +78,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LuaAPI.cs",
-              "DocumentMoniker": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaAPI.cs",
-              "RelativeDocumentMoniker": "Assets\\UniLua\\LuaAPI.cs",
-              "ToolTip": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaAPI.cs",
-              "RelativeToolTip": "Assets\\UniLua\\LuaAPI.cs",
-              "ViewState": "AQIAAEYCAAAAAAAAAAAlwFQCAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T02:03:44.522Z",
+              "DocumentIndex": 0,
+              "Title": "UniLuaEditor",
+              "DocumentMoniker": "H:\\project2\\UniLua\\UniLuaEditor\\UniLuaEditor.csproj",
+              "RelativeDocumentMoniker": "UniLuaEditor\\UniLuaEditor.csproj",
+              "ToolTip": "H:\\project2\\UniLua\\UniLuaEditor\\UniLuaEditor.csproj",
+              "RelativeToolTip": "UniLuaEditor\\UniLuaEditor.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-22T02:59:38.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LuaAuxLib.cs",
+              "DocumentMoniker": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaAuxLib.cs",
+              "RelativeDocumentMoniker": "Assets\\UniLua\\LuaAuxLib.cs",
+              "ToolTip": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaAuxLib.cs",
+              "RelativeToolTip": "Assets\\UniLua\\LuaAuxLib.cs",
+              "ViewState": "AQIAACsCAAAAAAAAAAAtwDECAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T01:53:02.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LuaDebug.cs",
               "DocumentMoniker": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaDebug.cs",
               "RelativeDocumentMoniker": "Assets\\UniLua\\LuaDebug.cs",
@@ -95,12 +111,23 @@
               "RelativeToolTip": "Assets\\UniLua\\LuaDebug.cs",
               "ViewState": "AQIAANYBAAAAAAAAAAAlwOQBAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T02:03:35.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T02:03:35.091Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "LuaAPI.cs",
+              "DocumentMoniker": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaAPI.cs",
+              "RelativeDocumentMoniker": "Assets\\UniLua\\LuaAPI.cs",
+              "ToolTip": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaAPI.cs",
+              "RelativeToolTip": "Assets\\UniLua\\LuaAPI.cs",
+              "ViewState": "AQIAAEYCAAAAAAAAAAAlwFQCAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T02:03:44.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "VM.cs",
               "DocumentMoniker": "H:\\project2\\UniLua\\Assets\\UniLua\\VM.cs",
               "RelativeDocumentMoniker": "Assets\\UniLua\\VM.cs",
@@ -108,21 +135,7 @@
               "RelativeToolTip": "Assets\\UniLua\\VM.cs",
               "ViewState": "AQIAAJICAAAAAAAAAAAlwKACAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T02:03:09.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LuaAuxLib.cs",
-              "DocumentMoniker": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaAuxLib.cs",
-              "RelativeDocumentMoniker": "Assets\\UniLua\\LuaAuxLib.cs",
-              "ToolTip": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaAuxLib.cs",
-              "RelativeToolTip": "Assets\\UniLua\\LuaAuxLib.cs",
-              "ViewState": "AQIAACsCAAAAAAAAAADgvzECAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T01:53:02.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T02:03:09.098Z"
             },
             {
               "$type": "Document",
@@ -134,8 +147,7 @@
               "RelativeToolTip": "Assets\\UniLua\\ULDebug.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T01:43:36.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T01:43:36.299Z"
             },
             {
               "$type": "Document",
@@ -147,12 +159,11 @@
               "RelativeToolTip": "Assets\\UniLua\\LuaPkgLib.cs",
               "ViewState": "AQIAAK4AAAAAAAAAAIAywL8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T01:42:42.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T01:42:42.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "LuaFile.cs",
               "DocumentMoniker": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaFile.cs",
               "RelativeDocumentMoniker": "Assets\\UniLua\\LuaFile.cs",
@@ -160,8 +171,7 @@
               "RelativeToolTip": "Assets\\UniLua\\LuaFile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T01:40:33.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T01:40:33.009Z"
             }
           ]
         },
