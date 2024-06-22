@@ -87,6 +87,12 @@ namespace UniLuaEditor.ViewModels
          }));
         //      }).ObservesCanExecute(() => CanExecuteSaveFileCommand));
         //   public bool CanExecuteSaveFileCommand => State == DebugState.Stopped /* todo and file has changed*/;
+      
+        public ICommand ExitAppCommand =>(new DelegateCommand (()=>
+        { 
+            App.Current.Shutdown(0);
+            Environment.Exit(0);
+        }));
         #endregion
 
         #region 读取文件 

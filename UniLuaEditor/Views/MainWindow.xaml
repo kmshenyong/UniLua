@@ -22,7 +22,7 @@
 
                 <!--<MenuItem Header="Close" Command=""  />-->
                 <Separator />
-                <MenuItem Header="Exit " Command=""  />
+                <MenuItem Header="Exit " Command="{Binding ExitAppCommand}"  />
             </MenuItem>
             <!--<MenuItem Header="Edit" Command="" >
                 <MenuItem Header="拷贝" Command=""/>
@@ -36,7 +36,7 @@
             </MenuItem>
         </Menu>
         <!--<ContentControl Grid.Row="1" prism:RegionManager.RegionName="ContentRegion" />-->
-        <Views:CodeTextEditor x:Name="LuaEditor" Grid.Row="1" SyntaxHighlighting="Lua.xshd"  Margin="2"  Document="{Binding LuaCode}"  />
+        <Views:CodeTextEditor x:Name="LuaEditor" Grid.Row="1"   Margin="2"  Document="{Binding LuaCode}"  />
         <StatusBar  Grid.Row="2" Background="#FFE7FFE2" Grid.ColumnSpan="2" >
             <Label Content="Line: "/>
         </StatusBar>
