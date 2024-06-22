@@ -1,3 +1,6 @@
+# 不使用Unity3D #
+在不使用Unity3D 的环境下对UniLua 的一些调整
+
 # UniLua #
 
 A pure C# implementation of Lua 5.2 focus on compatibility with Unity3D.  
