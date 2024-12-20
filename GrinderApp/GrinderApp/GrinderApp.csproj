@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes.MahApps" Version="3.1.0" />
+    <PackageReference Include="Prism.Unity" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\GrinderApp.Core\GrinderApp.Core.csproj" />
+    <ProjectReference Include="..\..\Modules\GrinderApp.Modules.ModuleName\GrinderApp.Modules.ModuleName.csproj" />
+    <ProjectReference Include="..\..\Services\GrinderApp.Services.Interfaces\GrinderApp.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Services\GrinderApp.Services\GrinderApp.Services.csproj" />
+  </ItemGroup>
+</Project>

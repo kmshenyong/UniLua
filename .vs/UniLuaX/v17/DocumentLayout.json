@@ -3,75 +3,39 @@
   "WorkspaceRootPath": "H:\\project2\\UniLua\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|h:\\project2\\unilua\\uniluaeditor\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|solutionrelative:uniluaeditor\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kmsmg\\AppData\\Local\\Temp\\.vsdbgsrc\\588fd4cd1320d504abfcbd7bb1f0e198f8b5eec657267f804bb540676e7671d3\\ElementUtil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|h:\\project2\\unilua\\uniluaeditor\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|solutionrelative:uniluaeditor\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F314A553-F4D4-4E2D-A860-CFE3AFDC1C04}|GrinderApp\\GrinderApp\\GrinderApp.csproj|h:\\project2\\unilua\\grinderapp\\grinderapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F314A553-F4D4-4E2D-A860-CFE3AFDC1C04}|GrinderApp\\GrinderApp\\GrinderApp.csproj|solutionrelative:grinderapp\\grinderapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|h:\\project2\\unilua\\uniluaeditor\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|solutionrelative:uniluaeditor\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F314A553-F4D4-4E2D-A860-CFE3AFDC1C04}|GrinderApp\\GrinderApp\\GrinderApp.csproj|h:\\project2\\unilua\\grinderapp\\grinderapp\\grinderapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F314A553-F4D4-4E2D-A860-CFE3AFDC1C04}|GrinderApp\\GrinderApp\\GrinderApp.csproj|solutionrelative:grinderapp\\grinderapp\\grinderapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|h:\\project2\\unilua\\uniluaeditor\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|solutionrelative:uniluaeditor\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F314A553-F4D4-4E2D-A860-CFE3AFDC1C04}|GrinderApp\\GrinderApp\\GrinderApp.csproj|h:\\project2\\unilua\\grinderapp\\grinderapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F314A553-F4D4-4E2D-A860-CFE3AFDC1C04}|GrinderApp\\GrinderApp\\GrinderApp.csproj|solutionrelative:grinderapp\\grinderapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|h:\\project2\\unilua\\uniluaeditor\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|solutionrelative:uniluaeditor\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|H:\\project2\\UniLua\\GrinderApp\\Modules\\GrinderApp.Modules.ModuleName\\ModuleNameModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GrinderApp\\Modules\\GrinderApp.Modules.ModuleName\\ModuleNameModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|h:\\project2\\unilua\\uniluaeditor\\views\\luacv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|solutionrelative:uniluaeditor\\views\\luacv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|H:\\project2\\UniLua\\GrinderApp\\Services\\GrinderApp.Services\\GrinderApp.Services.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GrinderApp\\Services\\GrinderApp.Services\\GrinderApp.Services.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|h:\\project2\\unilua\\uniluaeditor\\views\\luaeditoe.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|solutionrelative:uniluaeditor\\views\\luaeditoe.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|H:\\project2\\UniLua\\GrinderApp\\Services\\GrinderApp.Services.Interfaces\\GrinderApp.Services.Interfaces.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GrinderApp\\Services\\GrinderApp.Services.Interfaces\\GrinderApp.Services.Interfaces.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|h:\\project2\\unilua\\uniluaeditor\\wpfextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|solutionrelative:uniluaeditor\\wpfextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|H:\\project2\\UniLua\\GrinderApp\\Tests\\GrinderApp.Modules.ModuleName.Tests\\GrinderApp.Modules.ModuleName.Tests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GrinderApp\\Tests\\GrinderApp.Modules.ModuleName.Tests\\GrinderApp.Modules.ModuleName.Tests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|h:\\project2\\unilua\\uniluaeditor\\views\\customcompletionwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|solutionrelative:uniluaeditor\\views\\customcompletionwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kmsmg\\.nuget\\packages\\prism.wpf\\8.1.97\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|h:\\project2\\unilua\\uniluaeditor\\uniluaeditor.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{9AAFA100-2783-4206-BA3F-E8048BC4DF1F}|UniLuaEditor\\UniLuaEditor.csproj|solutionrelative:uniluaeditor\\uniluaeditor.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|h:\\project2\\unilua\\assets\\unilua\\luaauxlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|solutionrelative:assets\\unilua\\luaauxlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|h:\\project2\\unilua\\assets\\unilua\\luadebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|solutionrelative:assets\\unilua\\luadebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|h:\\project2\\unilua\\assets\\unilua\\luaapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|solutionrelative:assets\\unilua\\luaapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|h:\\project2\\unilua\\assets\\unilua\\vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|solutionrelative:assets\\unilua\\vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|h:\\project2\\unilua\\assets\\unilua\\uldebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|solutionrelative:assets\\unilua\\uldebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|h:\\project2\\unilua\\assets\\unilua\\luapkglib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|solutionrelative:assets\\unilua\\luapkglib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|h:\\project2\\unilua\\assets\\unilua\\luafile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2AFA056-1E01-46A2-8CC8-31DB50E47AF7}|Assets\\UniLua\\UniLuaX.csproj|solutionrelative:assets\\unilua\\luafile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|H:\\project2\\UniLua\\GrinderApp\\GrinderApp.Core\\GrinderApp.Core.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GrinderApp\\GrinderApp.Core\\GrinderApp.Core.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -80,8 +44,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 211,
-          "SelectedChildIndex": 9,
+          "DockedWidth": 247,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -105,10 +69,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:1:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
             },
             {
@@ -116,228 +76,137 @@
               "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "H:\\project2\\UniLua\\UniLuaEditor\\Views\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "UniLuaEditor\\Views\\MainWindow.xaml.cs",
-              "ToolTip": "H:\\project2\\UniLua\\UniLuaEditor\\Views\\MainWindow.xaml.cs",
-              "RelativeToolTip": "UniLuaEditor\\Views\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAYwB0AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T13:10:05.652Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cf577b8c-4134-11d2-83e5-00c04f9902c1}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "H:\\project2\\UniLua\\UniLuaEditor\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "UniLuaEditor\\ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "H:\\project2\\UniLua\\UniLuaEditor\\ViewModels\\MainWindowViewModel.cs*",
-              "RelativeToolTip": "UniLuaEditor\\ViewModels\\MainWindowViewModel.cs*",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAowGAAAAAAAAAA",
+              "Title": "ElementUtil.cs",
+              "DocumentMoniker": "C:\\Users\\kmsmg\\AppData\\Local\\Temp\\.vsdbgsrc\\588fd4cd1320d504abfcbd7bb1f0e198f8b5eec657267f804bb540676e7671d3\\ElementUtil.cs",
+              "ToolTip": "C:\\Users\\kmsmg\\AppData\\Local\\Temp\\.vsdbgsrc\\588fd4cd1320d504abfcbd7bb1f0e198f8b5eec657267f804bb540676e7671d3\\ElementUtil.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAADgv5sAAAADAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T12:36:40.126Z",
+              "WhenOpened": "2024-12-19T09:05:27.556Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GrinderApp",
+              "DocumentMoniker": "H:\\project2\\UniLua\\GrinderApp\\GrinderApp\\GrinderApp.csproj",
+              "RelativeDocumentMoniker": "GrinderApp\\GrinderApp\\GrinderApp.csproj",
+              "ToolTip": "H:\\project2\\UniLua\\GrinderApp\\GrinderApp\\GrinderApp.csproj",
+              "RelativeToolTip": "GrinderApp\\GrinderApp\\GrinderApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-19T08:46:24.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModuleNameModule.cs",
+              "DocumentMoniker": "H:\\project2\\UniLua\\GrinderApp\\Modules\\GrinderApp.Modules.ModuleName\\ModuleNameModule.cs",
+              "RelativeDocumentMoniker": "GrinderApp\\Modules\\GrinderApp.Modules.ModuleName\\ModuleNameModule.cs",
+              "ToolTip": "H:\\project2\\UniLua\\GrinderApp\\Modules\\GrinderApp.Modules.ModuleName\\ModuleNameModule.cs",
+              "RelativeToolTip": "GrinderApp\\Modules\\GrinderApp.Modules.ModuleName\\ModuleNameModule.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T08:39:04.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "H:\\project2\\UniLua\\GrinderApp\\GrinderApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "GrinderApp\\GrinderApp\\App.xaml.cs",
+              "ToolTip": "H:\\project2\\UniLua\\GrinderApp\\GrinderApp\\App.xaml.cs",
+              "RelativeToolTip": "GrinderApp\\GrinderApp\\App.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T08:36:28.664Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "App.xaml",
-              "DocumentMoniker": "H:\\project2\\UniLua\\UniLuaEditor\\App.xaml",
-              "RelativeDocumentMoniker": "UniLuaEditor\\App.xaml",
-              "ToolTip": "H:\\project2\\UniLua\\UniLuaEditor\\App.xaml",
-              "RelativeToolTip": "UniLuaEditor\\App.xaml",
+              "DocumentMoniker": "H:\\project2\\UniLua\\GrinderApp\\GrinderApp\\App.xaml",
+              "RelativeDocumentMoniker": "GrinderApp\\GrinderApp\\App.xaml",
+              "ToolTip": "H:\\project2\\UniLua\\GrinderApp\\GrinderApp\\App.xaml",
+              "RelativeToolTip": "GrinderApp\\GrinderApp\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-22T13:10:02.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "H:\\project2\\UniLua\\UniLuaEditor\\App.xaml.cs",
-              "RelativeDocumentMoniker": "UniLuaEditor\\App.xaml.cs",
-              "ToolTip": "H:\\project2\\UniLua\\UniLuaEditor\\App.xaml.cs",
-              "RelativeToolTip": "UniLuaEditor\\App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T03:30:40.443Z"
+              "WhenOpened": "2024-12-19T08:35:59.7Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "LuaCV.cs",
-              "DocumentMoniker": "H:\\project2\\UniLua\\UniLuaEditor\\Views\\LuaCV.cs",
-              "RelativeDocumentMoniker": "UniLuaEditor\\Views\\LuaCV.cs",
-              "ToolTip": "H:\\project2\\UniLua\\UniLuaEditor\\Views\\LuaCV.cs",
-              "RelativeToolTip": "UniLuaEditor\\Views\\LuaCV.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAwwBEAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T03:22:15.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CustomCompletionWindow.cs",
-              "DocumentMoniker": "H:\\project2\\UniLua\\UniLuaEditor\\Views\\CustomCompletionWindow.cs",
-              "RelativeDocumentMoniker": "UniLuaEditor\\Views\\CustomCompletionWindow.cs",
-              "ToolTip": "H:\\project2\\UniLua\\UniLuaEditor\\Views\\CustomCompletionWindow.cs",
-              "RelativeToolTip": "UniLuaEditor\\Views\\CustomCompletionWindow.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T03:29:53.686Z"
+              "Title": "GrinderApp.Services.csproj",
+              "DocumentMoniker": "H:\\project2\\UniLua\\GrinderApp\\Services\\GrinderApp.Services\\GrinderApp.Services.csproj",
+              "RelativeDocumentMoniker": "GrinderApp\\Services\\GrinderApp.Services\\GrinderApp.Services.csproj",
+              "ToolTip": "H:\\project2\\UniLua\\GrinderApp\\Services\\GrinderApp.Services\\GrinderApp.Services.csproj",
+              "RelativeToolTip": "GrinderApp\\Services\\GrinderApp.Services\\GrinderApp.Services.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-19T08:29:00.689Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "LuaEditoe.xaml",
-              "DocumentMoniker": "H:\\project2\\UniLua\\UniLuaEditor\\Views\\LuaEditoe.xaml",
-              "RelativeDocumentMoniker": "UniLuaEditor\\Views\\LuaEditoe.xaml",
-              "ToolTip": "H:\\project2\\UniLua\\UniLuaEditor\\Views\\LuaEditoe.xaml",
-              "RelativeToolTip": "UniLuaEditor\\Views\\LuaEditoe.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-22T03:21:10.372Z"
+              "Title": "GrinderApp.Services.Interfaces.csproj",
+              "DocumentMoniker": "H:\\project2\\UniLua\\GrinderApp\\Services\\GrinderApp.Services.Interfaces\\GrinderApp.Services.Interfaces.csproj",
+              "RelativeDocumentMoniker": "GrinderApp\\Services\\GrinderApp.Services.Interfaces\\GrinderApp.Services.Interfaces.csproj",
+              "ToolTip": "H:\\project2\\UniLua\\GrinderApp\\Services\\GrinderApp.Services.Interfaces\\GrinderApp.Services.Interfaces.csproj",
+              "RelativeToolTip": "GrinderApp\\Services\\GrinderApp.Services.Interfaces\\GrinderApp.Services.Interfaces.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-19T08:28:44.14Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "WpfExtensions.cs",
-              "DocumentMoniker": "H:\\project2\\UniLua\\UniLuaEditor\\WpfExtensions.cs",
-              "RelativeDocumentMoniker": "UniLuaEditor\\WpfExtensions.cs",
-              "ToolTip": "H:\\project2\\UniLua\\UniLuaEditor\\WpfExtensions.cs",
-              "RelativeToolTip": "UniLuaEditor\\WpfExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T03:30:03.387Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "readme.txt",
-              "DocumentMoniker": "C:\\Users\\kmsmg\\.nuget\\packages\\prism.wpf\\8.1.97\\readme.txt",
-              "ToolTip": "C:\\Users\\kmsmg\\.nuget\\packages\\prism.wpf\\8.1.97\\readme.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-06-22T03:26:29.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UniLuaEditor",
-              "DocumentMoniker": "H:\\project2\\UniLua\\UniLuaEditor\\UniLuaEditor.csproj",
-              "RelativeDocumentMoniker": "UniLuaEditor\\UniLuaEditor.csproj",
-              "ToolTip": "H:\\project2\\UniLua\\UniLuaEditor\\UniLuaEditor.csproj",
-              "RelativeToolTip": "UniLuaEditor\\UniLuaEditor.csproj",
+              "Title": "GrinderApp.Modules.ModuleName.Tests.csproj",
+              "DocumentMoniker": "H:\\project2\\UniLua\\GrinderApp\\Tests\\GrinderApp.Modules.ModuleName.Tests\\GrinderApp.Modules.ModuleName.Tests.csproj",
+              "RelativeDocumentMoniker": "GrinderApp\\Tests\\GrinderApp.Modules.ModuleName.Tests\\GrinderApp.Modules.ModuleName.Tests.csproj",
+              "ToolTip": "H:\\project2\\UniLua\\GrinderApp\\Tests\\GrinderApp.Modules.ModuleName.Tests\\GrinderApp.Modules.ModuleName.Tests.csproj",
+              "RelativeToolTip": "GrinderApp\\Tests\\GrinderApp.Modules.ModuleName.Tests\\GrinderApp.Modules.ModuleName.Tests.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-22T02:59:38.97Z"
+              "WhenOpened": "2024-12-19T08:28:24.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LuaAuxLib.cs",
-              "DocumentMoniker": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaAuxLib.cs",
-              "RelativeDocumentMoniker": "Assets\\UniLua\\LuaAuxLib.cs",
-              "ToolTip": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaAuxLib.cs",
-              "RelativeToolTip": "Assets\\UniLua\\LuaAuxLib.cs",
-              "ViewState": "AQIAACsCAAAAAAAAAAAtwDECAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T01:53:02.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LuaDebug.cs",
-              "DocumentMoniker": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaDebug.cs",
-              "RelativeDocumentMoniker": "Assets\\UniLua\\LuaDebug.cs",
-              "ToolTip": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaDebug.cs",
-              "RelativeToolTip": "Assets\\UniLua\\LuaDebug.cs",
-              "ViewState": "AQIAANYBAAAAAAAAAAAlwOQBAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T02:03:35.091Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LuaAPI.cs",
-              "DocumentMoniker": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaAPI.cs",
-              "RelativeDocumentMoniker": "Assets\\UniLua\\LuaAPI.cs",
-              "ToolTip": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaAPI.cs",
-              "RelativeToolTip": "Assets\\UniLua\\LuaAPI.cs",
-              "ViewState": "AQIAAEYCAAAAAAAAAAAlwFQCAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T02:03:44.522Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "VM.cs",
-              "DocumentMoniker": "H:\\project2\\UniLua\\Assets\\UniLua\\VM.cs",
-              "RelativeDocumentMoniker": "Assets\\UniLua\\VM.cs",
-              "ToolTip": "H:\\project2\\UniLua\\Assets\\UniLua\\VM.cs",
-              "RelativeToolTip": "Assets\\UniLua\\VM.cs",
-              "ViewState": "AQIAAJICAAAAAAAAAAAlwKACAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T02:03:09.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ULDebug.cs",
-              "DocumentMoniker": "H:\\project2\\UniLua\\Assets\\UniLua\\ULDebug.cs",
-              "RelativeDocumentMoniker": "Assets\\UniLua\\ULDebug.cs",
-              "ToolTip": "H:\\project2\\UniLua\\Assets\\UniLua\\ULDebug.cs",
-              "RelativeToolTip": "Assets\\UniLua\\ULDebug.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAABOwBYAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T01:43:36.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LuaPkgLib.cs",
-              "DocumentMoniker": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaPkgLib.cs",
-              "RelativeDocumentMoniker": "Assets\\UniLua\\LuaPkgLib.cs",
-              "ToolTip": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaPkgLib.cs",
-              "RelativeToolTip": "Assets\\UniLua\\LuaPkgLib.cs",
-              "ViewState": "AQIAAK4AAAAAAAAAAIAywL8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T01:42:42.258Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LuaFile.cs",
-              "DocumentMoniker": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaFile.cs",
-              "RelativeDocumentMoniker": "Assets\\UniLua\\LuaFile.cs",
-              "ToolTip": "H:\\project2\\UniLua\\Assets\\UniLua\\LuaFile.cs",
-              "RelativeToolTip": "Assets\\UniLua\\LuaFile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T01:40:33.009Z"
+              "DocumentIndex": 8,
+              "Title": "GrinderApp.Core.csproj",
+              "DocumentMoniker": "H:\\project2\\UniLua\\GrinderApp\\GrinderApp.Core\\GrinderApp.Core.csproj",
+              "RelativeDocumentMoniker": "GrinderApp\\GrinderApp.Core\\GrinderApp.Core.csproj",
+              "ToolTip": "H:\\project2\\UniLua\\GrinderApp\\GrinderApp.Core\\GrinderApp.Core.csproj",
+              "RelativeToolTip": "GrinderApp\\GrinderApp.Core\\GrinderApp.Core.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-19T08:27:40.538Z"
             }
           ]
         },
         {
-          "DockedWidth": 6,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 198,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "H:\\project2\\UniLua\\UniLuaEditor\\Views\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "UniLuaEditor\\Views\\MainWindow.xaml",
-              "ToolTip": "H:\\project2\\UniLua\\UniLuaEditor\\Views\\MainWindow.xaml",
-              "RelativeToolTip": "UniLuaEditor\\Views\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-22T03:19:30.536Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 267,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }
