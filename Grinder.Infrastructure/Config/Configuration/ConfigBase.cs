@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-namespace grinder.Configuration
+namespace GrinderApp.Configuration
 {
     /// <summary>
     /// 强类型命名配置对象基类

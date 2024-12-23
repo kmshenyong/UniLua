@@ -1,4 +1,4 @@
-﻿namespace grinder.Configuration
+﻿namespace GrinderApp.Configuration
 {
     /// <summary>
     /// 刷新至数据库的方法

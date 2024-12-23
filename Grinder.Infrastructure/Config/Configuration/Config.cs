@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-using grinder.Configuration.Helper;
+using GrinderApp.Configuration.Helper;
 
-namespace grinder.Configuration
+namespace GrinderApp.Configuration
 {
     /// <summary>
     /// 配置信息的数据全部保存在该对象

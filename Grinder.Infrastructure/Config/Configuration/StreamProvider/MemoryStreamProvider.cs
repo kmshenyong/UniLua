@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace grinder.Configuration.StreamProvider
+namespace GrinderApp.Configuration.StreamProvider
 {
     /// <summary>
     /// 内存流提供者，主要用于单元测试

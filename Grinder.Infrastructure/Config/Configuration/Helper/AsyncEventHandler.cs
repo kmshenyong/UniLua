@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace grinder.Configuration.Helper
+namespace GrinderApp.Configuration.Helper
 {
     public delegate Task AsyncEventHandler(object sender, EventArgs e);
 

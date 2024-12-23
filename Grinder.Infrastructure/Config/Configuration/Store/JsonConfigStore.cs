@@ -5,10 +5,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using grinder.Configuration.Helper;
-using grinder.Configuration.StreamProvider;
+using GrinderApp.Configuration.Helper;
+using GrinderApp.Configuration.StreamProvider;
 
-namespace grinder.Configuration.Store.Json
+namespace GrinderApp.Configuration.Store.Json
 {
     /// <summary>
     /// JSON 配置文件转换流

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace grinder.Configuration
+namespace GrinderApp.Configuration
 {
     /// <summary>
     /// 需要持久化的设置参数特性头声明

@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Grinder.Infrastructure", "G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration", "..\Grinder.Infrastructure\Config\Configuration\Configuration.csproj", "{E0A59C7B-E122-47FA-AB12-079F3A2BA43E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationEditor", "Modules\ConfigurationEditor\ConfigurationEditor.csproj", "{BB76CB5E-81E5-4371-B661-1E1F6A96AD67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{E0A59C7B-E122-47FA-AB12-079F3A2BA43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0A59C7B-E122-47FA-AB12-079F3A2BA43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0A59C7B-E122-47FA-AB12-079F3A2BA43E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB76CB5E-81E5-4371-B661-1E1F6A96AD67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB76CB5E-81E5-4371-B661-1E1F6A96AD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB76CB5E-81E5-4371-B661-1E1F6A96AD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB76CB5E-81E5-4371-B661-1E1F6A96AD67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,5 +68,6 @@ Global
 		{27F6296C-6144-4508-B973-F239057B023E} = {3F73F93D-0B10-4FC2-BCF6-29D31151F254}
 		{0644D152-A161-4687-924B-86AF1FC32F1D} = {3CF79AE9-2100-4B03-BCB0-9BD67784E06A}
 		{E0A59C7B-E122-47FA-AB12-079F3A2BA43E} = {306C4966-F4C7-4F82-9FE3-6D04168B1421}
+		{BB76CB5E-81E5-4371-B661-1E1F6A96AD67} = {3CF79AE9-2100-4B03-BCB0-9BD67784E06A}
 	EndGlobalSection
 EndGlobal

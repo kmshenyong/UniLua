@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace grinder.Configuration.StreamProvider
+namespace GrinderApp.Configuration.StreamProvider
 {
     /// <summary>
     /// 数据流提供接口，例如内存流，文件流等

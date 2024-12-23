@@ -1,4 +1,4 @@
-﻿namespace grinder.Configuration
+﻿namespace GrinderApp.Configuration
 {
     /// <summary>
     /// 接口负责把默认的配置文件参数持久化（这样一来用户可以直接修改被持久化的文件，提高效率）

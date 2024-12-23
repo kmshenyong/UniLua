@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Newtonsoft.Json.Linq;
 
-namespace grinder.Configuration
+namespace GrinderApp.Configuration
 {
     /// <summary>
     /// 这个类负责保存配置信息数据，意味着一个配置信息分组

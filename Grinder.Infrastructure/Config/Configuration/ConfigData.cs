@@ -3,7 +3,7 @@ using System.Collections.Concurrent;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace grinder.Configuration
+namespace GrinderApp.Configuration
 {
     /// <summary>
     /// 这个类负责存储所有的数据，新版本改为扁平化存储，取消树状存储形式

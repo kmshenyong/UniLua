@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
 using System.Threading.Tasks;
-using grinder.Configuration.Helper;
+using GrinderApp.Configuration.Helper;
 using Serilog;
 
-namespace grinder.Configuration.StreamProvider
+namespace GrinderApp.Configuration.StreamProvider
 {
     /// <summary>
     /// 文件流提供者

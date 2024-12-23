@@ -1,4 +1,4 @@
-﻿namespace grinder.Configuration
+﻿namespace GrinderApp.Configuration
 {
     /// <summary>
     /// 用来遍历 ConfigTree 的算法

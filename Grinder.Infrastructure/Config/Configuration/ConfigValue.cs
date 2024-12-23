@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection.Metadata.Ecma335;
 
-namespace grinder.Configuration
+namespace GrinderApp.Configuration
 {
     /// <summary>
     /// 配置参数的值

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace grinder.Configuration
+namespace GrinderApp.Configuration
 {
     /// <summary>
     /// 该对象负责处理配置路径字符串

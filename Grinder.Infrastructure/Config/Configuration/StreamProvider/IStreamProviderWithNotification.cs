@@ -1,6 +1,6 @@
-﻿using grinder.Configuration.Helper;
+﻿using GrinderApp.Configuration.Helper;
 
-namespace grinder.Configuration.StreamProvider
+namespace GrinderApp.Configuration.StreamProvider
 {
     /// <summary>
     /// 含有通知消息的接口

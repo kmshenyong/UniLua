@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace grinder.Configuration.Helper
+namespace GrinderApp.Configuration.Helper
 {
     /// <summary>
     /// 只允许一个等待着的任务队列，该队列允许一个执行者工作中，同时一个等待着在等待并进入工作

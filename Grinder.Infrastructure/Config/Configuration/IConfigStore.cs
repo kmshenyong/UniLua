@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using grinder.Configuration.Helper;
+using GrinderApp.Configuration.Helper;
 
-namespace grinder.Configuration
+namespace GrinderApp.Configuration
 {
     /// <summary>
     /// 配置信息持久化接口
