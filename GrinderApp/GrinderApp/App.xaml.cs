@@ -21,6 +21,7 @@ namespace GrinderApp
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterSingleton<IMessageService, MessageService>();
+            containerRegistry.RegisterForNavigation<HomeMenu>();
         }
 
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)

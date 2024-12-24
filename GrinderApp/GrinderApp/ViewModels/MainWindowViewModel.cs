@@ -31,6 +31,8 @@ namespace GrinderApp.ViewModels
             theme.SetBaseTheme(isDarkTheme ? BaseTheme.Dark : BaseTheme.Light);
             paletteHelper.SetTheme(theme);
         }
+
+      //  public override void on
         public MainWindowViewModel()
         {
 

@@ -1,10 +1,11 @@
 ﻿using GrinderApp.Core.Mvvm;
 using GrinderApp.Services.Interfaces;
-using Prism.Regions;
+using Prism.Navigation.Regions;
+
 
 namespace GrinderApp.Modules.ModuleName.ViewModels
 {
-    public class ViewAViewModel : RegionViewModelBase
+    public class ViewAViewModel : GrinderApp.Core.Mvvm.RegionViewModelBase
     {
         private string _message;
         public string Message
