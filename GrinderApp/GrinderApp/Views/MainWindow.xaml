@@ -25,10 +25,13 @@
     </Window.Resources>
     <mah:MetroWindow.RightWindowCommands>
         <mah:WindowCommands>
+            <Button Command="{Binding ChangeAccentCommand }"  CommandParameter="Orange"  Content="橙色"       ToolTip="改变橙色" />
+            <Button Command="{Binding ChangeAccentCommand }"  CommandParameter="Blue" Content="蓝色"          ToolTip="蓝色" /> 
             <ToggleButton   Style="{StaticResource MaterialDesignSwitchToggleButton}" IsChecked="{Binding IsLightTheme}"  ToolTip="设置皮肤" />
+       
         </mah:WindowCommands>
     </mah:MetroWindow.RightWindowCommands>
     <Grid>
-        <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}" />
+        <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
     </Grid>
 </mah:MetroWindow>

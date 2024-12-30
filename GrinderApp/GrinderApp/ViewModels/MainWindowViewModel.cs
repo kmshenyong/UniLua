@@ -1,6 +1,11 @@
-﻿using GrinderApp.Core.Mvvm;
+﻿using ControlzEx.Theming;
+using GrinderApp.Core.Mvvm;
 using MaterialDesignThemes.Wpf;
+using Prism.Commands;
 using Prism.Mvvm;
+using System.Windows;
+using System.Windows.Input;
+using System.Xml.Linq;
 
 namespace GrinderApp.ViewModels
 {
@@ -12,7 +17,7 @@ namespace GrinderApp.ViewModels
             get { return _title; }
             set { SetProperty(ref _title, value); }
         }
-        private bool _IsLightTheme = false ;
+        private bool _IsLightTheme = false;
         public bool IsLightTheme
         {
             get => _IsLightTheme;
@@ -32,10 +37,25 @@ namespace GrinderApp.ViewModels
             paletteHelper.SetTheme(theme);
         }
 
-      //  public override void on
+        //  public override void on
         public MainWindowViewModel()
         {
+            //  ChangeAccentCommand = new ICommand<string?>(o => true, this.DoChangeTheme);
+        }
 
+
+
+        public ICommand ChangeAccentCommand => new DelegateCommand<string>((o) =>
+        {
+            DoChangeTheme(o);
+        });
+
+        protected virtual void DoChangeTheme(string? name)
+        {
+            if (name is not null)
+            {
+                ThemeManager.Current.ChangeThemeColorScheme(Application.Current, name);
+            }
         }
     }
 }

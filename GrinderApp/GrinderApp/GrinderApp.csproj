@@ -11,9 +11,11 @@
     <PackageReference Include="Prism.Wpf" Version="9.0.537" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Grinder.Infrastructure\Config\Configuration\Configuration.csproj" />
     <ProjectReference Include="..\..\GrinderApp.Core\GrinderApp.Core.csproj" />
     <ProjectReference Include="..\..\Modules\GrinderApp.Modules.ModuleName\GrinderApp.Modules.ModuleName.csproj" />
     <ProjectReference Include="..\..\Services\GrinderApp.Services.Interfaces\GrinderApp.Services.Interfaces.csproj" />
     <ProjectReference Include="..\..\Services\GrinderApp.Services\GrinderApp.Services.csproj" />
+    <ProjectReference Include="..\Modules\ConfigurationEditor\ConfigurationEditor.csproj" />
   </ItemGroup>
 </Project>

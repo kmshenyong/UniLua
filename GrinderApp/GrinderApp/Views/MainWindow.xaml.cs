@@ -7,6 +7,7 @@ using MahApps.Metro.Controls;
 using GrinderApp.Core;
 using Prism.Navigation.Regions;
 using Unity;
+using GrinderApp.Services.Interfaces;
 
 namespace GrinderApp.Views
 {
@@ -17,15 +18,19 @@ namespace GrinderApp.Views
     {
         IRegionManager regionManager;
         IUnityContainer _unityContainer;
-        public MainWindow(IUnityContainer unityContainer)
+        IAppConfig appConfig;
+        public MainWindow(IUnityContainer unityContainer,
+            IAppConfig appConfig)
         {
             InitializeComponent();
             _unityContainer = unityContainer;
             regionManager = _unityContainer.Resolve<IRegionManager>();
+            this.appConfig = appConfig;
+            var h = appConfig.PLcIpAddress;
         }
 
         #region full screen mode
-        bool fullScreenMode = false ;
+
         /// <summary>
         /// full screen mode.
         /// we cache this value because invoke high frequency by WndProc.
@@ -34,13 +39,13 @@ namespace GrinderApp.Views
         {
             get
             {
-                // return hostConfig.FullScreenMode;
-                return fullScreenMode;
+                return appConfig.FullScreenMode;
+
             }
             set
             {
-                //  hostConfig.FullScreenMode = value;
-                fullScreenMode = value;
+
+                appConfig.FullScreenMode = value;
             }
         }
         /// <summary>
@@ -165,7 +170,6 @@ namespace GrinderApp.Views
 
         private void MetroWindow_Loaded(object sender, RoutedEventArgs e)
         {
-
             UpdateStyleWithFullScreenMode(FullScreenMode);
             regionManager.RequestNavigate(RegionNames.ContentRegion, nameof(HomeMenu));
         }

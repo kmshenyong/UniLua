@@ -20,7 +20,7 @@ namespace ConfigurationEditor.Helper
         /// <param name="title"></param>
         /// <param name="text"></param>
         /// <returns></returns>
-        bool ShowQuestion(string text, string title);
+      //  bool ShowQuestion(string text, string title);
 
         /// <summary>
         /// 显示一个等待用户确认询问

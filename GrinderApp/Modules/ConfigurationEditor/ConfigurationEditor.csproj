@@ -17,6 +17,9 @@
 	  <DebugType>none</DebugType>
 	  <DebugSymbols>false</DebugSymbols>
 	</PropertyGroup>
+	<ItemGroup>
+	  <Page Remove="Browse\TreeViewItem.xaml" />
+	</ItemGroup>
   <ItemGroup>
     <PackageReference Include="MahApps.Metro" Version="2.4.10" />
     <PackageReference Include="MaterialDesignExtensions" Version="3.3.0" />

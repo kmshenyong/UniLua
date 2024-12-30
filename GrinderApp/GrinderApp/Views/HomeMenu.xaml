@@ -9,18 +9,18 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              prism:ViewModelLocator.AutoWireViewModel="True"
              d:DataContext="{d:DesignInstance local:HomeMenuViewModel}"
-             mc:Ignorable="d">
+             VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+             mc:Ignorable="d" d:DesignHeight="385.703" d:DesignWidth="699.6">
 
     <UserControl.Resources>
         <ResourceDictionary>
             <Style x:Key="LargeTileStyle" TargetType="mah:Tile">
-                <Setter Property="Height" Value="125" />
+                <!--<Setter Property="Height" Value="125" />-->
                 <Setter Property="TextOptions.TextFormattingMode" Value="Display" />
                 <Setter Property="TextOptions.TextRenderingMode" Value="ClearType" />
-                <Setter Property="TitleFontSize" Value="14" />
-                <Setter Property="Width" Value="300" />
+                <Setter Property="TitleFontSize" Value="20" />
+                <!--<Setter Property="Width" Value="300" />-->
             </Style>
-
             <Style x:Key="SmallTileStyle" TargetType="mah:Tile">
                 <Setter Property="Height" Value="125" />
                 <Setter Property="TextOptions.TextFormattingMode" Value="Ideal" />
@@ -30,91 +30,90 @@
             </Style>
         </ResourceDictionary>
     </UserControl.Resources>
+    <Grid>
+        <Viewbox   Margin="1"   Stretch="Fill">
+        <Grid   HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="160*" />
+                <ColumnDefinition Width="160*" />
+                <ColumnDefinition Width="160*" />
+                <ColumnDefinition Width="160*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="12*" />
+                <RowDefinition Height="90*" />
+                <RowDefinition Height="90*" />
+                <RowDefinition Height="90*" />
+            </Grid.RowDefinitions>
 
-    <Grid Background="{DynamicResource MahApps.Brushes.Accent4}">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="430*" />
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="83*" />
-            <RowDefinition Height="259*" />
-        </Grid.RowDefinitions>
-
-        <TextBlock Grid.Column="0" Grid.Row="0"
+            <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4"
                VerticalAlignment="Center"
                HorizontalAlignment="Center" 
                Margin="4"
                FontFamily="Segoe UI"
                FontSize="30"
-               FontWeight="Light"
-               Foreground="{DynamicResource MahApps.Brushes.ThemeForeground}"
+               FontWeight="Light"             
                Text="磨边机控制系统" />
 
-        <WrapPanel Grid.Row="1"
-               Grid.Column="0"
-              
-              
-               HorizontalAlignment="Stretch" 
-               VerticalAlignment="Stretch">
-            <mah:Tile Title="Mail"
-                  Margin="3"
+
+                <mah:Tile Title="生产管理" Grid.Row="1"  Grid.Column="0"  
+                  Margin="3" VerticalTitleAlignment ="Bottom"  HorizontalTitleAlignment="Center" 
                   mah:ControlsHelper.MouseOverBorderBrush="{DynamicResource MahApps.Brushes.ThemeForeground}"
-                  Background="Teal"
-                  HorizontalTitleAlignment="Right"
-                  Style="{StaticResource LargeTileStyle}"
-                  >
-                <iconPacks:PackIconModern Width="40"
-                                      Height="40"
-                                      Kind="Email" />
+                  Style="{DynamicResource MahApps.Styles.ToggleButton.Flat}"
+                 >
+                    <iconPacks:PackIconMaterial Kind="DatabaseSettingsOutline"  Width="60" Height="60" />
+                     
             </mah:Tile>
-            <mah:Tile Title="Desktop"
+                <mah:Tile Title="Desktop"  Grid.Row="1"  Grid.Column="1"  HorizontalAlignment="Stretch"  VerticalAlignment="Stretch"
                   Margin="3" 
                   mah:ControlsHelper.MouseOverBorderBrush="{DynamicResource MahApps.Brushes.ThemeForeground}"
-                  Style="{StaticResource LargeTileStyle}">
-                <iconPacks:PackIconFontAwesome Width="40"
+                >
+                    <iconPacks:PackIconFontAwesome Width="40"
                                            Height="40"
                                            Kind="DesktopSolid" />
             </mah:Tile>
-            <mah:Tile Title="Finance"
+            <mah:Tile Title="Finance" Grid.Row="1"  Grid.Column="2"  HorizontalAlignment="Stretch"  VerticalAlignment="Stretch"
                   Background="DimGray"
                   Style="{StaticResource LargeTileStyle}">
                 <iconPacks:PackIconModern Width="40"
                                       Height="40"
                                       Kind="Money" />
             </mah:Tile>
-            <mah:Tile Title="People"
-                  Background="#D2691E"
-                   mah:ControlsHelper.MouseOverBorderBrush="{DynamicResource MahApps.Brushes.Button.Border.Focus  }"
-                  HorizontalTitleAlignment="Right"
-                  Style="{StaticResource LargeTileStyle}">
-                <iconPacks:PackIconModern Width="40"
-                                      Height="40"
-                                      Kind="PeopleMultiple" />
+                <mah:Tile Title="系统配置" VerticalTitleAlignment ="Bottom"  HorizontalTitleAlignment="Center"  Grid.Row="2"  Grid.Column="3"  HorizontalAlignment="Stretch"  VerticalAlignment="Stretch"
+                  Background="Chocolate"
+                  mah:ControlsHelper.MouseOverBorderBrush="{DynamicResource MahApps.Brushes.Button.Border.Focus  }"
+                  Style="{StaticResource LargeTileStyle}"
+                  CommandParameter="{Binding configurationEditorViewLoader}"
+                  Command="{Binding LaunchCommand}">
+                 <iconPacks:PackIconMaterial Kind="CogOutline" Width="60" Height="60" Foreground ="BurlyWood" />
             </mah:Tile>
-            <mah:Tile Title="Count"
-                  Background="#FF842D"
-                  mah:ControlsHelper.MouseOverBorderBrush="{DynamicResource MahApps.Brushes.ThemeForeground}"
-                  Count="28"
+            <mah:Tile Title="Count" Grid.Row="2"  Grid.Column="1"  HorizontalAlignment="Stretch"  VerticalAlignment="Stretch"
+                  Background="{DynamicResource MahApps.Brushes.ThemeBackground}"
+                      Foreground="{DynamicResource MahApps.Brushes.ThemeForeground}"
+                  mah:ControlsHelper.MouseOverBorderBrush="{DynamicResource MahApps.Brushes.Button.Border.MouseOver }"
+                  Count=""
                   CountFontSize="42"
                   HorizontalTitleAlignment="Center"
-                  IsEnabled="False"
-                  Style="{StaticResource SmallTileStyle}"
-                  TitleFontSize="16"
-                  VerticalTitleAlignment="Top" />
-            <mah:Tile Title="Weather"
-                  Background="#1E90FF"
-                  Style="{StaticResource SmallTileStyle}">
-                <iconPacks:PackIconMaterial Width="40"
-                                        Height="40"
-                                        Kind="WeatherCloudy" />
+                  IsEnabled="True" 
+                  Style="{StaticResource LargeTileStyle}">
+                 <iconPacks:PackIconModern Width="40"
+                      Height="40"
+                      Kind="AxisThree"  />
             </mah:Tile>
-            <mah:Tile Title="Store"
+            <mah:Tile Title="Weather" Grid.Row="2"  Grid.Column="2"  HorizontalAlignment="Stretch"  VerticalAlignment="Stretch"
+                  Background="#1E90FF"
+                  Style="{StaticResource LargeTileStyle}">
+                <iconPacks:PackIconMaterial Width="40" Height="40"  Kind="WeatherCloudy" />
+            </mah:Tile>
+            <mah:Tile Title="Store" Grid.Row="3"  Grid.Column="0"  HorizontalAlignment="Stretch"  VerticalAlignment="Stretch"
                   Background="Green"
                   Style="{StaticResource LargeTileStyle}">
                 <iconPacks:PackIconEntypo Width="40"
                                       Height="40"
                                       Kind="WindowsStore" />
             </mah:Tile>
-        </WrapPanel>
+
+        </Grid>
+    </Viewbox>
     </Grid>
 </UserControl>
