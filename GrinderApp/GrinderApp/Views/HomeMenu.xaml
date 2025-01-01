@@ -19,8 +19,11 @@
                 <Setter Property="TextOptions.TextFormattingMode" Value="Display" />
                 <Setter Property="TextOptions.TextRenderingMode" Value="ClearType" />
                 <Setter Property="TitleFontSize" Value="20" />
-                <!--<Setter Property="Width" Value="300" />-->
+                <Setter Property="Foreground"  Value="{DynamicResource MaterialDesign.Brush.Primary}" />
+                <Setter Property="Background" Value="{DynamicResource MahApps.Brushes.Button.Flat.Background}" />
+                <!--<Setter Property="Width" Value="300" />--> 
             </Style>
+            
             <Style x:Key="SmallTileStyle" TargetType="mah:Tile">
                 <Setter Property="Height" Value="125" />
                 <Setter Property="TextOptions.TextFormattingMode" Value="Ideal" />
@@ -59,15 +62,13 @@
                 <mah:Tile Title="生产管理" Grid.Row="1"  Grid.Column="0"  
                   Margin="3" VerticalTitleAlignment ="Bottom"  HorizontalTitleAlignment="Center" 
                   mah:ControlsHelper.MouseOverBorderBrush="{DynamicResource MahApps.Brushes.ThemeForeground}"
-                  Style="{DynamicResource MahApps.Styles.ToggleButton.Flat}"
-                 >
-                    <iconPacks:PackIconMaterial Kind="DatabaseSettingsOutline"  Width="60" Height="60" />
-                     
-            </mah:Tile>
+                  Style="{DynamicResource  LargeTileStyle  }"    >
+                 <iconPacks:PackIconMaterial Kind="DatabaseSettingsOutline"  Width="60" Height="60" />
+                 </mah:Tile>
+                
                 <mah:Tile Title="Desktop"  Grid.Row="1"  Grid.Column="1"  HorizontalAlignment="Stretch"  VerticalAlignment="Stretch"
                   Margin="3" 
-                  mah:ControlsHelper.MouseOverBorderBrush="{DynamicResource MahApps.Brushes.ThemeForeground}"
-                >
+                  mah:ControlsHelper.MouseOverBorderBrush="{DynamicResource MahApps.Brushes.ThemeForeground}" >
                     <iconPacks:PackIconFontAwesome Width="40"
                                            Height="40"
                                            Kind="DesktopSolid" />
@@ -79,7 +80,15 @@
                                       Height="40"
                                       Kind="Money" />
             </mah:Tile>
-                <mah:Tile Title="系统配置" VerticalTitleAlignment ="Bottom"  HorizontalTitleAlignment="Center"  Grid.Row="2"  Grid.Column="3"  HorizontalAlignment="Stretch"  VerticalAlignment="Stretch"
+                <Button  Grid.Row="1"  Grid.Column="3" 
+  
+  Content="_MID"
+  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+  Style="{StaticResource MaterialDesignRaisedButton}"
+  ToolTip="Resource name: MaterialDesignRaisedButton" />
+           
+            
+            <mah:Tile Title="系统配置" VerticalTitleAlignment ="Bottom"  HorizontalTitleAlignment="Center"  Grid.Row="2"  Grid.Column="3"  HorizontalAlignment="Stretch"  VerticalAlignment="Stretch"
                   Background="Chocolate"
                   mah:ControlsHelper.MouseOverBorderBrush="{DynamicResource MahApps.Brushes.Button.Border.Focus  }"
                   Style="{StaticResource LargeTileStyle}"

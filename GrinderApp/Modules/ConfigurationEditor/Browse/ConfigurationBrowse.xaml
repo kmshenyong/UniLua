@@ -1,7 +1,7 @@
 ﻿<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:prism="http://prismlibrary.com/"
-              xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" 
+             xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"             
              xmlns:b="http://schemas.microsoft.com/xaml/behaviors"  
@@ -24,6 +24,7 @@
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.ListView.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.TreeView.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Themes/ContentControlEx.xaml" />
+                <!--<ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf/Themes/MaterialDesignTheme.listview.xaml"/>-->
             </ResourceDictionary.MergedDictionaries>
             <ContextMenu x:Key="TreeViewItemContextMenu"
                          DataContext="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=UserControl}, Path=DataContext}">
@@ -39,9 +40,9 @@
                           Command="{Binding Path=DeleteSectionCommand}" />
             </ContextMenu>
             <Style x:Key="HeadStyles"   TargetType="ContentControl"  >
-                <Setter Property="Foreground"  Value="{DynamicResource MahApps.Brushes.ThemeForeground }"  />
-                <Setter Property="Background"   Value="{DynamicResource MahApps.Brushes.Accent4}"  />
-                <Setter Property="FontSize"    Value="18"  />
+                <Setter Property="Foreground"  Value="{DynamicResource MaterialDesign.Brush.Primary.Light.Foreground }"/>
+                <Setter Property="Background"   Value="{DynamicResource MaterialDesign.Brush.Primary.Light}"/>
+                <Setter Property="FontSize"    Value="14"  />
             </Style>
              
              
@@ -55,7 +56,7 @@
                     Modifiers="Control"
                     Command="{Binding Path=CreateSectionCommand}" />
     </UserControl.InputBindings>
-    <Grid   >
+    <Grid >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="240" />
             <ColumnDefinition Width="auto" />
@@ -70,7 +71,7 @@
                    BorderThickness="0"
                   materialDesign:RippleAssist.IsDisabled="True"
                   SelectedItemChanged="SectionTree_OnSelectedItemChanged"
-                  Style="{StaticResource MahApps.Styles.TreeView.Virtualized}"
+                
                   ItemsSource="{Binding Path=Roots}">
             <b:Interaction.Behaviors>
                 <behaviors:BindableSelectedItemBehavior SelectedItem="{Binding SelectedSection,Mode=TwoWay}" />
@@ -100,7 +101,7 @@
                     </StackPanel>
                 </HierarchicalDataTemplate>
             </TreeView.ItemTemplate>
-            <TreeView.ItemContainerStyle >
+            <!--<TreeView.ItemContainerStyle >
 
                 <Style TargetType="TreeViewItem"
                        BasedOn="{StaticResource    MahApps.Styles.TreeViewItem}">
@@ -111,7 +112,7 @@
                     <Setter Property="ContextMenu"
                             Value="{StaticResource TreeViewItemContextMenu}" />
                 </Style>
-            </TreeView.ItemContainerStyle>
+            </TreeView.ItemContainerStyle>-->
         </TreeView>
 
         <!--分隔-->
@@ -138,7 +139,7 @@
                Margin="10 5 5 5"
                HorizontalScrollBarVisibility="Disabled"
                VerticalScrollBarVisibility="Auto"                      >
-            <ContentControl DataContext="{Binding ElementName=ValueListView}"/>
+            <!--<ContentControl DataContext="{Binding ElementName=ValueListView}"/>-->
             <!--Template="{StaticResource ConfigDataTemplate}" />-->
         </ScrollViewer>
         <!--列表框-->
@@ -148,9 +149,9 @@
                   FontSize="14"
                   SelectedItem="{Binding Path=SelectedValue}"
                   SelectionMode="Single"
-                  Style="{StaticResource MahApps.Styles.ListView.Virtualized}"
+               
                   ItemsSource="{Binding Path=SelectedSection.Values}" Margin="1">
-            <ListView.InputBindings>
+             <ListView.InputBindings>
                 <KeyBinding Key="F2"
                             Command="{Binding Path=EditValueCommand}" />
                 <KeyBinding Key="Return"
@@ -184,7 +185,7 @@
                                                              Width="16"
                                                              Height="16"
                                                              Margin="3" />
-                                    <TextBlock Grid.Column="1" Text="{Binding Path=Key}" Foreground="{StaticResource MahApps.Brushes.Text}" />
+                                    <TextBlock Grid.Column="1" Text="{Binding Path=Key}"  />
                                 </Grid>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
@@ -207,8 +208,7 @@
                                     DisplayMemberBinding="{Binding Path=Description}" 
                                     Header  ="{x:Static browse:I18n.ListViewTitle_Description}"
                                     HeaderContainerStyle="{StaticResource HeadStyles}">
-                         
-                        <!--Header  ="{x:Static browse:I18n.ListViewTitle_Description}" DisplayMemberBinding="{Binding Path=Description}"-->
+                        
                     </GridViewColumn>
                 </GridView>
             </ListView.View>
@@ -228,7 +228,7 @@
                               Command="{Binding Path=DeleteValueCommand}" />
                 </ContextMenu>
             </ListView.Resources>
-            <ListView.ItemContainerStyle>
+            <!--<ListView.ItemContainerStyle>
                 <Style TargetType="ListViewItem" BasedOn="{StaticResource MahApps.Styles.ListViewItem}" >
                     <Setter Property="IsSelected"
                             Value="{Binding Path=Selected}" />
@@ -239,7 +239,7 @@
                     <EventSetter Event="Selected"
                                  Handler="ListViewItem_FocusWhenSelected" />
                 </Style>
-            </ListView.ItemContainerStyle>
+            </ListView.ItemContainerStyle>-->
         </ListView>
 
     </Grid>

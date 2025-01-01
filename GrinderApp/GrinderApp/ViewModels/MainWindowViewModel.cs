@@ -1,8 +1,11 @@
 ﻿using ControlzEx.Theming;
+using GrinderApp.Core;
 using GrinderApp.Core.Mvvm;
+using GrinderApp.Views;
 using MaterialDesignThemes.Wpf;
 using Prism.Commands;
 using Prism.Mvvm;
+using Prism.Navigation.Regions;
 using System.Windows;
 using System.Windows.Input;
 using System.Xml.Linq;
@@ -11,6 +14,7 @@ namespace GrinderApp.ViewModels
 {
     public class MainWindowViewModel : ViewModelBase
     {
+        IRegionManager regionManager;
         private string _title = "Prism Application";
         public string Title
         {
@@ -38,12 +42,16 @@ namespace GrinderApp.ViewModels
         }
 
         //  public override void on
-        public MainWindowViewModel()
+        public MainWindowViewModel(IRegionManager regionManager)
         {
+           this.regionManager = regionManager;
             //  ChangeAccentCommand = new ICommand<string?>(o => true, this.DoChangeTheme);
         }
 
-
+        public ICommand HomeCommand => new DelegateCommand(() =>
+        {
+            regionManager.RequestNavigate(RegionNames.ContentRegion, nameof(HomeMenu));
+        });
 
         public ICommand ChangeAccentCommand => new DelegateCommand<string>((o) =>
         {

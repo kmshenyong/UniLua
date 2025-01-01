@@ -170,8 +170,8 @@ namespace GrinderApp.Views
 
         private void MetroWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            UpdateStyleWithFullScreenMode(FullScreenMode);
             regionManager.RequestNavigate(RegionNames.ContentRegion, nameof(HomeMenu));
+            UpdateStyleWithFullScreenMode(FullScreenMode);
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)

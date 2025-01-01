@@ -4,20 +4,21 @@
         xmlns:prism="http://prismlibrary.com/"
         xmlns:mahControls="http://metro.mahapps.com/winfx/xaml/controls"
         xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"             
         prism:ViewModelLocator.AutoWireViewModel="True"
         xmlns:core="clr-namespace:GrinderApp.Core;assembly=GrinderApp.Core"
         Loaded="MetroWindow_Loaded"         
         Title="{Binding Title}" Height="350" Width="525" 
+        TitleBarHeight="35"
         Background="{DynamicResource MaterialDesignPaper}"
-        GlowBrush="{DynamicResource MahApps.Brushes.Accent}"
+        GlowBrush="{DynamicResource MahApps.Brushes.Accent2}"
         Style="{StaticResource MaterialDesignWindow}">
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/themes/materialdesigntheme.button.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/themes/materialdesigntheme.togglebutton.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/themes/MaterialDesignTheme.button.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/themes/MaterialDesignTheme.togglebutton.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.MahApps;component/Themes/MaterialDesignTheme.MahApps.Defaults.xaml" />
-   
             </ResourceDictionary.MergedDictionaries>
 
             <!--<local:SolidBrushConverter x:Key="SolidBrushConverter" />-->
@@ -26,11 +27,21 @@
     <mah:MetroWindow.RightWindowCommands>
         <mah:WindowCommands>
             <Button Command="{Binding ChangeAccentCommand }"  CommandParameter="Orange"  Content="橙色"       ToolTip="改变橙色" />
-            <Button Command="{Binding ChangeAccentCommand }"  CommandParameter="Blue" Content="蓝色"          ToolTip="蓝色" /> 
+            <Button Command="{Binding ChangeAccentCommand }"  CommandParameter="Blue" Content="蓝色"          ToolTip="蓝色" />
             <ToggleButton   Style="{StaticResource MaterialDesignSwitchToggleButton}" IsChecked="{Binding IsLightTheme}"  ToolTip="设置皮肤" />
-       
+
         </mah:WindowCommands>
     </mah:MetroWindow.RightWindowCommands>
+    <mah:MetroWindow.LeftWindowCommands>
+        <mah:WindowCommands>
+            <Button Margin="0,0,0,0" VerticalContentAlignment="Center" 
+            Command="{Binding HomeCommand}"
+            Foreground="{Binding RelativeSource={RelativeSource AncestorType={x:Type FrameworkElement}}, Path=(TextElement.Foreground)}"
+            ToolTip="Home"
+            Content="{materialDesign:PackIcon  Kind=Home ,Size=30 }" />
+        </mah:WindowCommands>
+
+    </mah:MetroWindow.LeftWindowCommands>
     <Grid>
         <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
     </Grid>

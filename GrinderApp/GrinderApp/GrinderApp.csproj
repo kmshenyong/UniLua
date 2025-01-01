@@ -7,6 +7,7 @@
   <ItemGroup>
     <PackageReference Include="MahApps.Metro.IconPacks" Version="5.1.0" />
     <PackageReference Include="MaterialDesignThemes.MahApps" Version="3.1.0" />
+    <PackageReference Include="MaterialDesignThemes.Wpf" Version="1.0.1" />
     <PackageReference Include="Prism.Unity" Version="9.0.537" />
     <PackageReference Include="Prism.Wpf" Version="9.0.537" />
   </ItemGroup>
